@@ -1,0 +1,58 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+body{
+    background-image:linear-gradient(rgb(29, 32, 161),rgb(59, 59, 228));
+}
+#container{
+   display: grid;
+   grid-template-rows:repeat(3,1fr);
+   grid-gap:20px;
+   height:100vh;
+   padding: 50px 50px
+}
+#container a{
+    border:1px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 20px;
+    opacity: 0.85;
+}
+#linkedin{
+color: white;
+border-width: 3px;
+border-style: dashed;
+border-color: black;
+}
+#facebook{
+background-image: url(Screenshot_20250307-150039.jpg);
+color: white;
+}
+#email{
+    background-image: url(Screenshot_20250307-150136.jpg);
+    color: rgb(192, 11, 11);
+
+}
+#container a:hover{
+    transform: scale(1.05);
+    transition:0.5s;
+    opacity: 1;
+}
+h2{
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: 8px;
+    transition: 0.5s;
+}
+a:hover h2{
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+
+
